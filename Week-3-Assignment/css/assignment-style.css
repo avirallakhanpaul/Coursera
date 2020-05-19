@@ -1,0 +1,82 @@
+* {
+
+	box-sizing: border-box;
+}
+
+body {
+
+	font-family: Antapani;
+}
+
+.container-flex {
+
+	background-color: white;
+	
+}
+
+.navbar {
+
+	background-color: #cceabb;
+	padding: 0px;
+	border: 3px solid black;
+}
+
+.navbar h1 {
+
+	font-size: 2.8rem;
+	margin-left: 20px;
+	color: #3f3f44;
+}
+
+.nav-item {
+
+	font-size: 30px;
+}
+
+.nav-item hr {
+
+	width: 90%;
+	border: 2px solid black;
+}
+
+.navbar-nav {
+
+	width: 100%;
+	background-color: #fdcb9e;
+	border-top: 3px solid black;
+}
+
+.navbar-toggler {
+
+	margin-right: 20px;
+}
+
+h2 {  /*  OUR MENU   */
+
+	font-size: 2.5rem;
+	margin-top: 20px;
+	margin-bottom: 40px;
+}
+
+.row {  /*  Maian Content Box  */
+
+	background-color: #3f3f44;
+	color: white;
+	margin: 0px 15px 0px;
+	padding: 5px 10px;
+}
+
+h3 {
+
+	font-size: 2rem;
+	margin-bottom: 20px;
+}
+
+@media (max-width: 767px) {
+
+	.row {
+
+		margin-left: 120px;
+		margin-right: 120px;
+	}
+}
